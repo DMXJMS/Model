@@ -20,10 +20,11 @@
 
     # 配置CosyVoice
     git clone https://github.com/FunAudioLLM/SenseVoice.git
-    cd SenseVoice
+    cd 配置CosyVoice
     pip install -r requirements.txt 
 
     # 启动服务
+    cd CosyVoice
     export PYTHONPATH=third_party/Matcha-TTS
     python AI-assitantbyTeachLuo.py
     ```
