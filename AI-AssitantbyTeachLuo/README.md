@@ -1,11 +1,3 @@
-<!--
- * @Author: kraken8081 202024@cumtb.edu.cn
- * @Date: 2024-08-05 14:37:59
- * @LastEditors: kraken8081 202024@cumtb.edu.cn
- * @LastEditTime: 2024-08-06 22:21:31
- * @FilePath: /Model/AI-AssitantbyTeachLuo/README.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 # 端到端语音交互AI法律助手
 - ## 环境安装
 
@@ -39,5 +31,13 @@
     python AI-assitantbyTeachLuo.py
     ```
 
+### 模型下载
+./CosyVoice/download.py
+```python
+from modelscope import snapshot_download
+#snapshot_download('iic/CosyVoice-300M', local_dir='/root/autodl-tmp/pretrained_models/CosyVoice-300M')
+snapshot_download('iic/SenseVoiceSmall', local_dir='/root/autodl-tmp/pretrained_models')
+
+```
 - ## 交互对话
 <div align="center"><img src="./image/img1.png" width="px"></div>
