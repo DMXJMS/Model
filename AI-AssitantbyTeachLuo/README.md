@@ -1,3 +1,11 @@
+<!--
+ * @Author: kraken8081 202024@cumtb.edu.cn
+ * @Date: 2024-08-05 14:37:59
+ * @LastEditors: kraken8081 202024@cumtb.edu.cn
+ * @LastEditTime: 2024-08-06 19:54:40
+ * @FilePath: /Model/AI-AssitantbyTeachLuo/README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # 端到端语音交互AI法律助手
 - ## 环境安装
 
@@ -13,12 +21,12 @@
     pip install dashscope
     apt install ffmpeg
 
-    # 配置SenseVoice
+    # 配置SenseVoice语音识别
     git clone https://github.com/FunAudioLLM/SenseVoice.git
     cd SenseVoice
     pip install -r requirements.txt 
 
-    # 配置CosyVoice
+    # 配置CosyVoice语音合成
     git clone https://github.com/FunAudioLLM/SenseVoice.git
     cd 配置CosyVoice
     pip install -r requirements.txt 
@@ -30,5 +38,4 @@
     ```
 
 - ## 交互对话
-<div align="center"><img src="./image/img1.png" width="px">
-
+<div align="center"><img src="./image/img1.png" width="px"></div>
