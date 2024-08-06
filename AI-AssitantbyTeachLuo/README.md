@@ -2,13 +2,15 @@
  * @Author: kraken8081 202024@cumtb.edu.cn
  * @Date: 2024-08-05 14:37:59
  * @LastEditors: kraken8081 202024@cumtb.edu.cn
- * @LastEditTime: 2024-08-06 19:54:40
+ * @LastEditTime: 2024-08-06 22:21:31
  * @FilePath: /Model/AI-AssitantbyTeachLuo/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 # 端到端语音交互AI法律助手
 - ## 环境安装
 
+    操作系统：Ubuntu22.04
+    
     python版本：Python 3.8.19
     ```shell
     conda create -n cosyvoice python=3.8 -y
